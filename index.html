@@ -1,0 +1,62 @@
+<!--Leandro José Paniagua Balbuena-->
+<html>
+	<head>
+		<title>Impacto Ambiental Compras Online</title>
+		<meta charset="UTF-8">
+		<link href="estilo3.css" rel="StyleSheet" type="text/css"/>
+	</head>
+	<body>
+		<!--Cabecera de la página-->
+		<header>Impacto Ambiental Compras Online</header> 
+		<!--Barra de navegación-->
+		<nav>
+			<a href="index.html">Inicio</a>
+			<a href="impactoAmbiental3.html">ImpactoAmbiental</a>
+		</nav>
+		<div id="trans">
+			<!--Contenido de la tabla-->
+			<table>
+				<caption>Paises con altos niveles de compras online</caption>
+				<tr>
+					<td>Tailandia</td>
+					<td>Corea del Sur</td>
+					<td>Turquía</td>
+				</tr>
+				<tr>
+					<td>66,8%</td>
+					<td>65,6%</td>
+					<td>64,6%</td>
+				</tr>
+			</table>
+			<!--Formulario para participar en la reducción del impacto ambiental-->
+			<form method="POST" action="formulario2.php">
+				<!--Contenido del formulario dentro de un fieldset-->
+				<fieldset>
+					<legend>Rellena el formulario</legend>
+					<input type="text" value="Nombre Completo" name="texto">
+					<input type="text" value="Correo" name="correo">
+					<p>
+						<label for="opcion">¿Te gustaría participar en ayudar a reducir este gran problema?</label>
+						<label for="opcion">Si:</label>
+						<input name="radio1" type="radio" value=" si">
+						<label for="opcion">No:</label>
+						<input name="radio1" type="radio" value=" no">
+					</p>				
+					<p>ESO<input type="checkbox" name="opcion[]"></p>
+					<p>Bachillerato<input type="checkbox" name="opcion[]"></p>
+					<p>Ciclo<input type="checkbox" name="opcion[]"></p>
+					<p>Aceptar terminos y condiciones<input name="aceptar" type="checkbox"></p>
+				
+					<!-- Botón de envío del formulario -->
+					<input value="Enviar" type="submit">
+				</fieldset>
+			</form>
+		</div>
+		<footer>
+			<!-- Contenido del pie de página con un enlace y una imagen -->
+			Aquí tienen un enlace a la pagina web de Fundación Loyola
+			<a href="https://fundacionloyola.com" target="-blank"><img id="escuela" src="imagenes/escuela.jpg"></a> 
+			donde si desean pueden saber más sobre ella.
+		</footer>
+	</body>
+</html>

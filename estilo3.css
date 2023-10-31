@@ -1,0 +1,130 @@
+/*Leandro José Paniagua Balbuena*/
+ 
+/*--------------------------------------------------*/
+
+/*INDEX*/
+
+hmtl{
+	width: 1280px;
+	margin: 0 auto;
+}
+
+body{
+	padding: 0;
+	background-image: url(imagenes/fondo.jpg);
+}
+
+header{
+	background-color: #AFDEAA;
+	width: 730px;
+	height: 50px;
+	padding: 20px;
+	font-family: verdana;
+	text-align: center;
+	line-height: 48px;
+	border: 4px green ridge;
+	font-size: xx-large;
+	font-weight: bold;
+	color: black;
+	margin: auto;
+}
+
+nav{
+	width: 350px;
+	height: 50px;
+	margin: 50px 300px;;
+	text-align: center;
+	line-height: 50px;
+	border: 4px #AFDEAA dotted;
+	font-size: 20px;
+	background-color: #1A3317;
+}
+
+a:link{
+	color: white;
+}
+
+a:visited{
+	color: white;
+}
+
+a:hover{
+	background-color: green;
+}
+
+#trans{
+	padding: 1.953125%; /* 25px en relación al ancho del contenedor principal (25/1280 * 100) */
+	width: 58.59375%; /* 750px en relación al ancho del contenedor principal (750/1280 * 100) */
+	height: 550px;
+	margin: 50px 300px;
+	color: white;
+  	font-family: arial;
+  	background-color: rgba(0, 0, 0, 0.45);
+}
+
+table, td{
+	width: 350px;
+	border: 3px solid #1f1609;
+	border-collapse: collapse;
+	color: white;
+	background-color: green;
+	margin: 30px 210px;
+}
+
+form {
+    width: 500px;
+	margin: 30px 120px;
+}
+
+footer{
+	width: 1130px;
+	height: 90px;
+	margin: 50px auto 0px auto;
+	text-align: center;
+	line-height: 95px;
+	color: white;
+	border: 4px #AFDEAA dotted;
+	font-size: 20px;
+	background-color: #1A3317;
+}
+
+#escuela{
+	width: 70px;
+	height: 40px;
+	/*Se define un estilo para la imagen con el ID escuela, estableciendo un tamaño específico.*/
+}
+
+/*--------------------------------------------------*/
+
+/*Impacto Ambiental*/
+
+#div1{
+	
+	padding: 1.953125%; /* 25px en relación al ancho del contenedor principal (25/1280 * 100) */
+	width: 58.59375%; /* 750px en relación al ancho del contenedor principal (750/1280 * 100) */
+	height: 550px;
+	margin: 50px 300px;
+	color: white;
+  	font-family: arial;
+  	background-color: rgba(0, 0, 0, 0.45);
+}
+
+#div1 img{
+	/*Se define un estilo específico para las imágenes con la clase .imagenes, estableciendo dimensiones, márgenes y un borde.*/
+	width: 220px;
+	height: 140px;
+	/*El padding aplicado a las imágenes no afecta la altura declarada del #div1, ya que el padding se aplica a las imágenes internas, no al div contenedor.*/
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+span{
+	/*la uso para poner el texto en negrita con un color diferente*/
+	font-weight: bold;
+	color: #9fd699;
+}
+
+ul{
+	list-style-type: square;
+	/*Se modifica el estilo de las listas desordenadas para que los elementos tengan viñetas cuadradas.*/
+}
